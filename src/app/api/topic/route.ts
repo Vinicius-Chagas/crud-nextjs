@@ -28,3 +28,4 @@ export async function DELETE(request: NextRequest){
 
     return NextResponse.json({message:"topic deleted successfully"}, {status: 200});
 }
+
